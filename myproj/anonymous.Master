@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="anonymous.master.cs" Inherits="myproj.anonymous" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>The Free Smart-Sale Website Template | Index :: w3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Cabin+Condensed' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        .auto-style2 {
+            width: 100%;
+        }
+        .auto-style3 {
+            width: 146px;
+        }
+        .auto-style4 {
+            width: 198px;
+            height: 109px;
+        }
+        .auto-style5 {
+            float: none;
+            width: 100%;
+            margin-left: 73;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+            <div class="wrap">
+<div class="header">
+	<div class="clear">
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style3">
+                    <img alt="" class="auto-style4" src="pianola.JPG" /></td>
+                <td>
+	<div class="auto-style5">
+	<div class="menu">
+	 	 <ul class="nav">
+        <li class="active"><a href="index.html" title="Home">Home</a></li>
+  		<li><a href="about.html">About</a></li>
+  	     <li><a href="store.html">Store</a></li>
+  		<li><a href="contact.html">Contact</a></li>
+	    <li><a href="cart.aspx">My Account</a></li>
+        <li><a href="cart.aspx">Cart</a></li>
+
+      </ul>
+	 </div>
+	 </div>
+	            </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="hdr-btm pad-w3l">
+<div class="hdr-btm-bg"></div>
+<div class="hdr-btm-left">
+	<div class="search">
+	    </div>
+		<input type="text" value="keyword here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'keyword here';}">
+		<input type="submit" value="Search" class="pad-w3l-search">
+	  </div>
+	<div class="txt-right">
+		<h3>&nbsp;</h3>
+	</div>
+</div>
+</div>
+<div class="main">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <p>
+            <br />
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+    </asp:ContentPlaceHolder>
+</div>
+    </form>
+
+<div class="footer-bg">
+<div class="wrap">
+<div class="footer">
+	<div class="f_nav">
+		<ul>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Announcements</a></li>
+			<li><a href="#">Security Center</a></li>
+			<li><a href="#">Resolution Center</a></li>
+			<li><a href="#">Buyer Tools</a></li>
+			<li><a href="#">Policies</a></li>
+			<li><a href="#">Stores</a></li>
+			<li><a href="#">Site Map</a></li>
+		</ul>
+	</div>
+	<div class="footer1">
+		<p>&copy; 2013 SmartSale. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+	</div>
+</div>
+</div>
+</div>
+      
+</body>
+</html>
